@@ -1,0 +1,92 @@
+@font-face {
+  font-family: 'appfont';  
+  src: url('../fonts/DancingScript-Regular.ttf');
+}
+
+h1 {
+   margin-top:10px;
+   font-weight:bold;
+}
+
+#logo{
+	text-align:center;
+	background:rgba(255,255,255,1);
+    width:150px;
+    height:auto;
+    color:#fff;
+    display:block;
+    border-radius:90px;
+    border:2px solid rgba(0, 0, 0, 0.2);
+    padding: 15px 0 ;
+    margin:0 auto;
+    margin-top:100px;
+}
+
+#radio-fom {
+    left: 5px;
+    margin-top: 30px;
+    position: relative;
+}
+
+#page2{
+	background:url(../img/bmf/register-girl1.png) no-repeat left bottom, url(../img/bmf/bmfbg2.jpg) !important;
+}
+
+#thankyou-welcome{
+	font-family: 'appfont', 'Freestyle Script', sans-serif;
+	text-align:center;
+	font-size:2em;
+	color:#f00;
+	line-height:1.15;
+}
+#thankyou-welcome span{
+	color:#0a11a3;
+	font-weight:bold;
+}
+
+.back-page {
+    position: fixed;
+    bottom: 0;
+    width: 90%;
+    text-align:right;
+    text-decoration: none;
+    color:#000!important;
+    display:block;
+}
+
+/* jquery-mobile-min.js */
+
+.ui-overlay-a, .ui-page-theme-a, 
+.ui-page-theme-a .ui-panel-wrapper {
+    background:url(../img/bmf/bmfbg.jpg) !important;
+}
+
+.ui-controlgroup-controls, 
+.ui-controlgroup-controls .ui-radio, 
+.ui-controlgroup-controls .ui-checkbox, 
+.ui-controlgroup-controls .ui-select, 
+.ui-controlgroup-controls li{
+
+	margin:0 auto;
+	width:98%;
+}
+
+
+/* Landscape layout (with min-width) */
+@media screen and (min-width:400px) {
+	#welcome-section{
+		width: 380px;
+		height:200px;
+		margin:0 auto;
+	}
+    .welcome-section{
+    	float:left; 
+    	margin-left:10px;   	
+    	margin-top:30px;
+    }
+
+    #logo{
+    	margin-top:20px;
+    }
+}
+
